@@ -1205,11 +1205,11 @@
   "projectFileDependencyGroups": {
     "": [],
     ".NETFramework,Version=v4.6.1": [
-      "UiPath.Credentials.Activities >= 1.1.6479.13204 <= 1.1.6479.13204",
-      "UiPath.Excel.Activities >= 2.6.3 <= 2.6.3",
-      "UiPath.Mail.Activities >= 1.6.0 <= 1.6.0",
-      "UiPath.System.Activities >= 19.4.0 <= 19.4.0",
-      "UiPath.UIAutomation.Activities >= 19.4.0 <= 19.4.0"
+      "UiPath.Credentials.Activities >= 1.1.6479.13204",
+      "UiPath.Excel.Activities >= 2.6.3",
+      "UiPath.Mail.Activities >= 1.6.0",
+      "UiPath.System.Activities >= 19.4.0",
+      "UiPath.UIAutomation.Activities >= 19.4.0"
     ]
   },
   "packageFolders": {
@@ -1219,9 +1219,9 @@
     "restore": {
       "projectUniqueName": "Calculate_Client_Security_Hash",
       "projectName": "Calculate_Client_Security_Hash",
-      "projectPath": "C:\\Users\\bioni\\Development\\UIPathAcademy\\UIPath\\Calculate_Client_Security_Hash_PDD\\.local",
+      "projectPath": "C:\\Users\\bioni\\Development\\UI Path\\UiPathAcademy\\Calculate_Client_Security_Hash_PDD\\.local",
       "packagesPath": "C:\\Users\\bioni\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bioni\\Development\\UIPathAcademy\\UIPath\\Calculate_Client_Security_Hash_PDD\\.local"
+      "outputPath": "C:\\Users\\bioni\\Development\\UI Path\\UiPathAcademy\\Calculate_Client_Security_Hash_PDD\\.local"
     },
     "frameworks": {
       "net461": {
@@ -1229,30 +1229,53 @@
           "UiPath.Credentials.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[1.1.6479.13204, 1.1.6479.13204]"
+            "version": "[1.1.6479.13204, )"
           },
           "UiPath.Excel.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[2.6.3, 2.6.3]"
+            "version": "[2.6.3, )"
           },
           "UiPath.Mail.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[1.6.0, 1.6.0]"
+            "version": "[1.6.0, )"
           },
           "UiPath.System.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[19.4.0, 19.4.0]"
+            "version": "[19.4.0, )"
           },
           "UiPath.UIAutomation.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[19.4.0, 19.4.0]"
+            "version": "[19.4.0, )"
           }
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU3034",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.ValueTuple 4.5.0' from source 'https://www.myget.org/F/workflow/': This package is signed but not by a trusted signer.",
+      "libraryId": "System.ValueTuple"
+    },
+    {
+      "code": "NU3034",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'BouncyCastle 1.8.5' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.",
+      "libraryId": "BouncyCastle"
+    },
+    {
+      "code": "NU3034",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Extensions.FileSystemGlobbing 2.2.0' from source 'https://api.nuget.org/v3/index.json': This package is signed but not by a trusted signer.",
+      "libraryId": "Microsoft.Extensions.FileSystemGlobbing"
+    }
+  ]
 }

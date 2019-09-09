@@ -6,7 +6,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>435,1999</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>435,2039</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ProcessTransaction_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="21">
@@ -171,8 +171,8 @@
     </ui:InvokeWorkflowFile>
     <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke System1_Update_WorkItem workflow" sap:VirtualizedContainerService.HintSize="373,87" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_11" UnSafe="False" WorkflowFileName="System1\System1_Update_WorkItem.xaml">
       <ui:InvokeWorkflowFile.Arguments>
-        <InArgument x:TypeArguments="x:String" x:Key="in_Stat">["Uploaded with ID " + UploadID]</InArgument>
-        <InArgument x:TypeArguments="x:String" x:Key="in_Comment">Completed</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_Stat">Completed</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_Comment">["Uploaded with ID " + UploadID]</InArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
     <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke Navigate_ToDashboard workflow" sap:VirtualizedContainerService.HintSize="373,87" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_12" UnSafe="False" WorkflowFileName="System1\Navigate_ToDashboard.xaml">

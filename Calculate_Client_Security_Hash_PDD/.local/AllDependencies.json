@@ -1219,9 +1219,9 @@
     "restore": {
       "projectUniqueName": "Calculate_Client_Security_Hash",
       "projectName": "Calculate_Client_Security_Hash",
-      "projectPath": "C:\\Users\\bioni\\Development\\UI Path\\UiPathAcademy\\Calculate_Client_Security_Hash_PDD\\.local",
+      "projectPath": "C:\\Users\\bioni\\Development\\UIPathAcademy\\UiPathAcademy\\Calculate_Client_Security_Hash_PDD\\.local",
       "packagesPath": "C:\\Users\\bioni\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bioni\\Development\\UI Path\\UiPathAcademy\\Calculate_Client_Security_Hash_PDD\\.local"
+      "outputPath": "C:\\Users\\bioni\\Development\\UIPathAcademy\\UiPathAcademy\\Calculate_Client_Security_Hash_PDD\\.local"
     },
     "frameworks": {
       "net461": {
